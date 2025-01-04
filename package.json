@@ -1,0 +1,32 @@
+{
+  "name": "tree-sitter-whkd",
+  "version": "0.1.0",
+  "description": "whkd grammar for tree-sitter",
+  "repository": "https://github.com/LGUG2Z/tree-sitter-whkd",
+  "author": {
+    "name": "LGUG2Z",
+    "email": "lgug2z@fastmail.com"
+  },
+  "dependencies": {
+    "nan": "2.x"
+  },
+  "main": "bindings/node",
+  "types": "bindings/node",
+  "keywords": [
+    "incremental",
+    "parsing",
+    "tree-sitter",
+    "whkd"
+  ],
+  "devDependencies": {
+    "tree-sitter-cli": "^0.24.5"
+  },
+  "peerDependencies": {
+    "tree-sitter": "^0.22.1"
+  },
+  "peerDependenciesMeta": {
+    "tree-sitter": {
+      "optional": true
+    }
+  }
+}

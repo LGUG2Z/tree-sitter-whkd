@@ -1,0 +1,22 @@
+.shell pwsh # can be one of cmd | pwsh | powershell
+
+# Specify different behaviour depending on the app
+alt + n [
+    # ProcessName as shown by `Get-Process`
+    Firefox       : echo "hello firefox"
+ 
+    # Spaces are fine, no quotes required
+    Google Chrome : echo "hello chrome"
+]
+
+# reload configuration
+alt + o : taskkill /f /im whkd.exe && Start-Process whkd -WindowStyle hidden
+
+# app shortcuts
+alt + f : if ($wshell.AppActivate('Firefox') -eq $False) { start firefox }
+
+# focus windows with komorebi
+alt + h : komorebic focus left
+alt + j : komorebic focus down
+alt + k : komorebic focus up
+alt + l : komorebic focus right

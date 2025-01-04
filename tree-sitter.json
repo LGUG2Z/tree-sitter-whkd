@@ -1,0 +1,35 @@
+{
+  "grammars": [
+    {
+      "name": "whkd",
+      "camelcase": "whkd",
+      "scope": "source.whkd",
+      "path": ".",
+      "file-types": [
+        "whkdrc"
+      ],
+      "highlights": "queries/highlights.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "description": "whkd grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "LGUG2Z",
+        "email": "lgug2z@fastmail.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/LGUG2Z/tree-sitter-whkd"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
