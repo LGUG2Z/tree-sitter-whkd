@@ -4,9 +4,6 @@
   <a href="https://techforpalestine.org/learn-more">
     <img alt="Tech for Palestine" src="https://badge.techforpalestine.org/default">
   </a>
-  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/LGUG2Z/masir/.github/workflows/windows.yaml">
-  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/LGUG2Z/masir/total">
-  <img alt="GitHub commits since latest release (by date) for a branch" src="https://img.shields.io/github/commits-since/LGUG2Z/masir/latest">
   <a href="https://discord.gg/mGkn66PHkx">
     <img alt="Discord" src="https://img.shields.io/discord/898554690126630914">
   </a>
