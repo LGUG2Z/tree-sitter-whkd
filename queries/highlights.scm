@@ -29,7 +29,7 @@
 ":" @punctuation.delimiter
 
 ;; Commands
-(command) @string
+(command) @variable
 
 ;; Comments
 (comment) @comment
